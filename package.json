@@ -15,6 +15,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "node-sass": "^4.9.4",
     "prop-types": "^15.6.2",
     "react-scripts": "2.0.5"
   },
