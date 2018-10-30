@@ -1,16 +1,14 @@
 import React, { PureComponent } from 'react'
 import { Transition, animated } from 'react-spring'
 import Home from './Home'
+import DevConnect from './DevConnect'
+import Emaily from './Emaily'
 import './index.scss'
 
 const pages = [
-  style => (<Home />),
-  style => (
-    <animated.div style={{ ...style, background: '#B2DBBF' }}>B</animated.div>
-  ),
-  style => (
-    <animated.div style={{ ...style, background: '#12DBBF' }}>C</animated.div>
-  )
+  style => <Home style={style} />,
+  style => <DevConnect style={style} />,
+  style => <Emaily style={style} />
 ]
 
 export default class Dialog extends PureComponent {
