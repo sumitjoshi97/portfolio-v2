@@ -4,11 +4,11 @@ import { animated } from 'react-spring'
 export default class Home extends Component {
   render() {
     return (
-      <animated.div className="dialog__home">
+      <animated.div style={this.props.style} className="dialog__home">
         <h1>SUMIT JOSHI</h1>
-        <br />
         <div className="dialog__divider" />
-        <h3>PORTFOLIO</h3>
+        <h3>A Web Developer's</h3>
+        <h2>PORTFOLIO</h2>
       </animated.div>
     )
   }
