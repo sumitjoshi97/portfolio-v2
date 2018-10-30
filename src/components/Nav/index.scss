@@ -1,0 +1,21 @@
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &__list {
+    list-style: none;
+    font-weight: 700;
+    &__item {
+      display: inline-block;
+      margin: 3rem;
+      margin-left: 0;
+      padding-bottom: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        border-bottom: 0.2rem solid black; 
+      }
+    }
+  }
+}
