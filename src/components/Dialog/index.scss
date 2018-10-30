@@ -1,9 +1,65 @@
 .dialog {
-  position: absolute;
+  position: relative;
   height: 60%;
   width: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #36f;
+
+  &__home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #b0bfc5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    will-change: transform, opacity;
+    h1 {
+      font-size: 8rem;
+    }
+    h2 {
+      font-size: 4.5rem;
+    }
+    h3 {
+      font-size: 3rem;
+      font-weight: 400;
+      font-family: 'Caveat';
+      margin-bottom: 1rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  &__divider {
+    width: 20%;
+    background-color: #000;
+    height: 0.5rem;
+    margin: 2rem;
+  }
+}
+
+.project {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #b0bfc5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+  will-change: transform, opacity;
+
+  h2 {
+    
+  }
+
+  &__number {
+    font-family: 'Goku', 'Monsterrat', sans-serif;
+
+  }
 }
