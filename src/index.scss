@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Caveat:400');
+@font-face {
+  font-family: 'Goku';
+  src: url('./assets/font/Goku.ttf')format(ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +16,7 @@ html {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   height: 100vh;
 }
