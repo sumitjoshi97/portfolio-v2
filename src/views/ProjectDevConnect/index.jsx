@@ -6,7 +6,7 @@ const ProjectDevConnect = () => (
     projectType="App"
     projectName="Dev Connect"
     projectInfo="Stack overflow like social network app, where devs can register, create profile and, share posts to help other devs. Devs can comment on posts shared and also delete their post or comment"
-    headerImage={require('../../../assets/images/devConnect/devConnect.svg')}
+    headerImage={require('../../assets/images/devConnect/devConnect.svg')}
     headerStyle={['#1B9CFC', '#3c40c6']}
     theme={'#22a6f3'}
     stacks={[

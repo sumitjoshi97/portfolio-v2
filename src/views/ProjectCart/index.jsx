@@ -7,11 +7,11 @@ const ProjectCart = () => (
     projectName="ShopCart"
     projectInfo="A shopping web-app in which user can add t-shirts to cart, filter products by size, and
                     at last purchase their order and check their previous orders."
-    headerImage={require('../../../assets/images/cart/cart.svg')}
+    headerImage={require('../../assets/images/cart/cart.svg')}
     headerStyle={['#341f97', '#5f27cd']}
     theme={'#36f'}
     stacks={['React js', 'Redux', 'SASS', 'Firebase']}
-    backImage={require('../../../assets/images/cart/screenshot.png')}
+    backImage={require('../../assets/images/cart/screenshot.png')}
     linkLanuchProject="https://sumitjoshi97.github.io/cart"
     screenshots={[
       {
